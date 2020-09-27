@@ -1,5 +1,6 @@
 ﻿
 
+
 #include <iostream>
 #include <string>
 
@@ -71,114 +72,115 @@ int main()
 			xor esi,esi
 			cmp ecx,2
 			jnz cyc2
-			jz end
+			jmp fin
 			add1:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			add2:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			add3:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			add4:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			add5:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			add6:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			add7:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			add8:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			add9:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			addA:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			addB:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			addC:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			addD:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			addE:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 			addF:
 		//Добавление символа как-то
 			inc ecx
 			xor esi, esi
 			cmp ecx, 2
 			jnz cyc2
-			jz end
+			jmp fin
 
-			end:
+			fin:
+			and ecx,ecx
 			//Алгоритм счастливо завершает свою работу и дает верный результат!
 	}
 	
@@ -186,5 +188,4 @@ int main()
 	system("pause");
 	return 0;
 }
-
 
